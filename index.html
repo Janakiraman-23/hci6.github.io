@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Display and Change Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Change Your Picture</h1>
+        <div class="picture-card">
+            <div class="picture-display" id="pictureDisplay">
+                <img src="default.jpg" alt="Displayed Picture" id="displayedImage">
+            </div>
+            <div class="controls">
+                <label for="pictureInput" class="button">Change Picture</label>
+                <input type="file" id="pictureInput" accept="image/*">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
